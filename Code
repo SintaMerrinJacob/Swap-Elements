@@ -1,0 +1,13 @@
+#include<iostream>
+#include<bits/stdc++.h>
+using namespace std;
+void main;
+{
+  int a, b;
+  cin>>a>>b;
+  cout<<"The elements before swaping are a="<<a<<" b="<<b;
+  a=a^b;
+  b=a^b;
+  a=a^b;
+  cout<<"The elements after swaping are a="<<a<<" b="<<b;
+}
